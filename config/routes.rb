@@ -1,4 +1,8 @@
 Wechat::Application.routes.draw do
+  get "air/index"
+
+  post "air/index"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
